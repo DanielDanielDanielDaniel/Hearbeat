@@ -1,0 +1,25 @@
+{
+  "name": "logcollector",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "NODE_ENV=development port=8081 nohup node acg_monitor.js >nohup.log &"
+  },
+  "dependencies": {
+    "async": "0.2.9",
+    "cron": "*",
+    "express": "3.0.x",
+    "generic-pool": "*",
+    "markdown": "*",
+    "moment": "*",
+    "mysql": "*",
+    "nodemailer": "*",
+    "request": "2.27.0",
+    "underscore": "*",
+    "urllib": "^2.27.0",
+    "winston": "*"
+  },
+  "engines": {
+    "node": ">0.8.18"
+  }
+}

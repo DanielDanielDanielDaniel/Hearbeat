@@ -1,0 +1,19 @@
+[
+	{
+		"id":1,
+		"url":"http://127.0.0.1:8081/api/user/yinshan",
+		"state":1,
+		"method":"get",
+		"comment":"健康(health)84.15",
+		"autoRestart": true,
+		"dir":"../../../LianwuShiji",
+		"execCommand":
+			[
+				"NODE_ENV=production port=8081 node",
+				"../../ACG_apiServer/acg_app.js",
+				"--name","health",
+				"-c","6",
+				"-p","25"
+			]
+	}
+]
